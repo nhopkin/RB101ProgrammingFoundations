@@ -1,0 +1,3 @@
+numbers.delete_at(1) will delete the second number in the numbers array
+
+numbers.delete(1) will delete the first number in the numbers array

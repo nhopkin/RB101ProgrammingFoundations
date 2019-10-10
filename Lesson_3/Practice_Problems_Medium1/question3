@@ -1,0 +1,18 @@
+def factors(number)
+  divisor = number
+  factors = []
+
+  while divisor > 0 do
+    factors << number / divisor if number % divisor == 0
+    divisor -= 1
+  end
+
+  factors
+end
+
+p factors(0)
+p factors(-1)
+p factors(10)
+
+# number % divisor == 0 is the condition that stores the factor in the array
+# factors returns the array 

@@ -1,0 +1,39 @@
+1)  Casual:
+given two integers
+assign variable to integer
+add integers
+return the result
+
+    Formal:
+Start
+Set variable = integer 1
+Set variable2 = integer 2
+set result = to integer 1 + integer 2
+End
+
+2)  Casual:
+given an array of strings
+iterate through the array
+add all strings together and return value
+
+    Formal:
+Start
+create variable to hold concatenation
+iterate over array
+add each iteration to variable
+end
+
+3)  Casual:
+take an array of integers 
+iterate over array 
+only keep every other value
+store those values in a new array
+
+    Formal:
+Start
+iterator = 0
+new array = []
+while iterator <= array size
+if iterator is even store value to new array
+iterator += 1
+End

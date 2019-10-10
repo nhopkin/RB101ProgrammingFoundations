@@ -1,0 +1,12 @@
+Describe the difference between ! and ? in Ruby. 
+And explain what would happen in the following scenarios:
+
+An ! or ? is generally a part of the method name but depending on the method it
+could have some effect
+
+1. != means not equal to and should be used in boolean expressions
+2. changes the value of the object to the opposite of its boolean quivalent
+3. Mutates the caller, words
+4/5. It is sometime used like an if construct when 
+     attached to a method and returns a boolean value
+6. !! turns an object into the opposite of its boolean expression.

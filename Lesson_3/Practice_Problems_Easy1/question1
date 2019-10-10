@@ -1,0 +1,7 @@
+# Prints all the number in string format 
+# from the original numbers array because .uniq does not mutate
+
+1
+2
+2
+3
